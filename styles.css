@@ -466,6 +466,16 @@ sup {
     text-decoration: none;
 }
 
+.no_hover_orange:link,
+.no_hover_orange:visited {
+    color:  white;
+    text-decoration: none;
+}
+.no_hover_orange:hover {
+    color:  #ff6d04;
+    text-decoration: none;
+}
+
 
 .black {
     color: #000;
