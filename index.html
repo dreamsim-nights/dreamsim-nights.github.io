@@ -20,7 +20,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 
     <link href="styles.css" rel="stylesheet" />
-	<link href="fontawesome.all.min.css" rel="stylesheet" />
+    <link href="fontawesome.all.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	<script defer src="fontawesome.all.min.js"></script>
+
     <script src="script.js"></script>
 
     <link rel="icon" type="image/png" href="webpage_assets/dreamsim_icon.png" />
@@ -47,37 +50,35 @@
 <body>
     <br>
     <center>
-        <span class="near-black" style="font-size:36px">DreamSim: Learning New Dimensions of</span>
-        <br>
-        <span class="near-black" style="font-size:36px">Human Visual Similarity using Synthetic Data</span>
+        <span class="near-black" style="font-size:26px;font-weight:bold">DreamSim: Learning New Dimensions of Human Visual Similarity using Synthetic Data</span>
         <br>
         <table align="center" width="900px">
             <tbody>
                 <tr>
                     <td align="center" width="215px">
                         <center>
-                            <span style="font-size:24px"><a href="https://stephanie-fu.github.io/">Stephanie
+                            <span style="font-size:22px"><a href="https://stephanie-fu.github.io/">Stephanie
                                     Fu</a><sup style="vertical-align: sub;padding-left: 2px">*</sup><sup style="font-size: 0.7em;">1</sup>
                                 </span>
                         </center>
                     </td>
                     <td align="center" width="235px">
                         <center>
-                            <span style="font-size:24px"><a href="https://netanel-tamir.github.io/">Netanel Y.
+                            <span style="font-size:22px"><a href="https://netanel-tamir.github.io/">Netanel Y.
                                     Tamir</a><sup style="vertical-align: sub;padding-left: 2px">*</sup><sup
                                         style="font-size: 0.7em;">2</sup></span>
                         </center>
                     </td>
                     <td align="center" width="260px">
                         <center>
-                            <span style="font-size:24px"><a href="https://ssundaram21.github.io/">Shobhita
+                            <span style="font-size:22px"><a href="https://ssundaram21.github.io/">Shobhita
                                     Sundaram</a><sup style="vertical-align: sub;padding-left: 2px">*</sup><sup
                                         style="font-size: 0.7em;">1</sup></span>
                         </center>
                     </td>
                     <td align="center" width="190px">
                         <center>
-                            <span style="font-size:24px"><a href="https://people.csail.mit.edu/lrchai/">Lucy
+                            <span style="font-size:22px"><a href="https://people.csail.mit.edu/lrchai/">Lucy
                                     Chai</a><sup style="font-size: 0.7em;padding-left: 1px;">1</sup></span>
                         </center>
                     </td>
@@ -89,19 +90,19 @@
                 <tr>
                     <td align="center" width="225px">
                         <center>
-                            <span style="font-size:24px"><a href="http://richzhang.github.io/">Richard Zhang</a><sup
+                            <span style="font-size:22px"><a href="http://richzhang.github.io/">Richard Zhang</a><sup
                                         style="font-size: 0.7em;padding-left: 2px;">3</sup></span>
                         </center>
                     </td>
                     <td align="center" width="225px">
                         <center>
-                            <span style="font-size:24px"><a href="https://www.weizmann.ac.il/math/dekel/home">Tali
+                            <span style="font-size:22px"><a href="https://www.weizmann.ac.il/math/dekel/home">Tali
                                     Dekel</a><sup style="font-size: 0.7em;padding-left: 2px;">2</sup></span>
                         </center>
                     </td>
                     <td align="center" width="225px">
                         <center>
-                            <span style="font-size:24px"><a href="http://web.mit.edu/phillipi/">Phillip Isola</a><sup
+                            <span style="font-size:22px"><a href="http://web.mit.edu/phillipi/">Phillip Isola</a><sup
                                         style="font-size: 0.7em;padding-left: 1px;">1</sup></span>
                         </center>
                     </td>
@@ -135,22 +136,63 @@
                 </tr>
             </tbody>
         </table>
-        <table width="600" border="0" align="center" class="menu"
+        <table width="800" border="0" align="center" class="menu"
             style="margin-bottom: 20px;margin-top: 20px;font-weight: bold;font-size: 20px;">
             <tbody>
                 <tr>
                     <td align="center">
-                        <a class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" href="https://arxiv.org/abs/2306.09344" target="_blank">Paper</a>
-                        <a class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" href="supplemental.html" target="_blank">Supplementary Material</a>
-                        <a class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" href="https://github.com/ssundaram21/dreamsim" target="_blank">Code & Data</a>
-						<a class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" href="https://colab.research.google.com/drive/1taEOMzFE9g81D9AwH27Uhy2U82tQGAVI?usp=sharing" target="_blank">Colab</a>
-                        <a class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" href="#bibtex" id="bibtex_link" target="_self">Bibtex</a>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="color:inherit;text-decoration:none;font-size:15px" href="./2306.09344.pdf" target="_blank">
+							<i style="padding-right:2px;font-size:23px" class="fa fa-file-pdf" aria-hidden="true"></i>
+							Paper
+							</a>
+						</span>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="color:inherit;text-decoration:none;font-size:15px" href="supplemental.html" target="_blank">
+							<i style="padding-right:2px;font-size:23px" class="fa fa-file-code" aria-hidden="true"></i>
+							Supplementary Material
+							</a>
+						</span>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="color:inherit;text-decoration:none;font-size:15px" href="https://github.com/ssundaram21/dreamsim" target="_blank">
+							<i style="padding-right:2px;font-size:23px" class="fab fa-github" aria-hidden="true"></i>
+							Code & Data
+							</a>
+						</span>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="vertical-align:sub;color:inherit;text-decoration:none;font-size:15px" href="https://colab.research.google.com/drive/1taEOMzFE9g81D9AwH27Uhy2U82tQGAVI?usp=sharing" target="_blank">
+							<img style="padding-bottom:3px;padding-right:2px;height:18px" src="webpage_assets/colab.png" aria-hidden="true"></img>
+							Colab
+							</a>
+						</span>
                     </td>
                 </tr>
                 <tr>
                     <td align="center">
-                        <a class="bg-near-black f6 no_hover_orange br-pill ph3 pv2 dib" href="https://voxel51.com/blog/teaching-androids-to-dream-of-sheep/" target="_blank">Blog Post</a>
-                        <a class="bg-near-black f6 no_hover_orange br-pill ph3 pv2 dib" href="https://try.fiftyone.ai/datasets/nights/samples" target="_blank">Explore the Dataset</a>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="vertical-align:sub;color:inherit;text-decoration:none" href="https://arxiv.org/abs/2306.09344" target="_blank">
+							<i style="padding-right:2px;font-size:20px" class="ai ai-arxiv" aria-hidden="true"></i>
+							Arxiv
+							</a>
+						</span>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="vertical-align:sub;color:inherit;text-decoration:none" href="https://voxel51.com/blog/teaching-androids-to-dream-of-sheep/" target="_blank">
+							<img style="padding-bottom:5px;padding-right:2px;font-size:22px;height:20px" src="webpage_assets/voxel51.png" aria-hidden="true"></img>
+							Blog Post
+							</a>
+						</span>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="vertical-align:sub;color:inherit;text-decoration:none" href="https://try.fiftyone.ai/datasets/nights/samples" target="_blank">
+							<img style="padding-bottom:5px;padding-right:2px;font-size:20px;height:22px" src="webpage_assets/voxel51.png" aria-hidden="true"></img>
+							Explore the Dataset!
+							</a>
+						</span>
+						<span class="bg-near-black f6 no_hover br-pill ph3 pv2 dib" style="vertical-align:top;height:36px">
+							<a style="vertical-align:sub;color:inherit;text-decoration:none" href="#bibtex" target="_self">
+							<i style="padding-right:2px;font-size:20px" class="fa fa-quote-left" aria-hidden="true"></i>
+							Bibtex
+							</a>
+						</span>
                     </td>
                 </tr>
             </tbody>
@@ -262,7 +304,7 @@
                 <div class="col" id="method-description">
                     Our perceptual metric is a pairwise image distance, computed as the cosine distance
                     between concatenated backbone model features. We train via a hinge loss on image triplets,
-                    training via <a href="https://arxiv.org/abs/2106.09685">Low-Rank Adaptation (LoRA)</a>.
+                    training via <a style="color:#f14d68" href="https://arxiv.org/abs/2106.09685">Low-Rank Adaptation (LoRA)</a>.
                 </div>
             </div>
         </div>

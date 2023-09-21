@@ -24,21 +24,14 @@ th {
     text-align: center;
 }
 a:link {
-    color: #4488ff;
+    color: #f14d68;
     text-decoration: underline;
 }
 a:active {
-    color: #4488ff;
+    color: #f14d68;
     text-decoration: underline;
 }
-a:visited {
-    color: #4488ff;
-    text-decoration: underline;
-}
-a:hover {
-    color: #ff0000;
-    text-decoration: none;
-}
+
 .reference {
     font-size: 80%;
 }
