@@ -32,6 +32,10 @@ a:active {
     text-decoration: underline;
 }
 
+a:visited {
+	color: #f14d68;
+}
+
 .reference {
     font-size: 80%;
 }
